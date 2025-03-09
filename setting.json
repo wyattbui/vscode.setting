@@ -1,0 +1,79 @@
+{
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontSize": 12,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 20,
+
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 12.5,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.hover.enabled": true,
+  "typescript.autoClosingTags": true,
+  "typescript.suggest.autoImports": true,
+
+  "editor.tokenColorCustomizations": {
+    "[GitHub Dark]": {
+      "textMateRules": [
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#98C379"
+          }
+        },
+        {
+          "scope": "constant.numeric.decimal",
+          "settings": {
+            "foreground": "#E5C07B" //royal gold
+          }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": "variable.language.this",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "scope": ["entity.name.function.member"],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DAA520" //royal gold
+            }
+        },
+        {
+            "scope": ["variable.other.object"],
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+      ]
+    },
+    "[Catppuccin Macchiato]": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                    // "foreground": "#6A737D"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property.ts",
+                ],
+                "settings": {
+                    "foreground": "#8bd5ca"
+                }
+            }
+        ]
+    }
+  }
+}
