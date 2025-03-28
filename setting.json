@@ -1,79 +1,190 @@
 {
   "editor.fontFamily": "'JetBrains Mono', monospace",
   "editor.fontSize": 12,
-  "editor.fontWeight": "300",
+  "editor.fontWeight": "350",
   "editor.lineHeight": 20,
+
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 250,
+  "vim.hlsearch": true,
 
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 12.5,
-  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.lineHeight": 1.2,
   "editor.hover.enabled": true,
   "typescript.autoClosingTags": true,
   "typescript.suggest.autoImports": true,
-
+  "workbench.sideBar.location": "left",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#E06C75"
+  },
   "editor.tokenColorCustomizations": {
-    "[GitHub Dark]": {
+
+    "[Catppuccin Macchiato]": {
       "textMateRules": [
         {
-          "scope": "string",
+          "scope": "comment",
           "settings": {
-            "foreground": "#98C379"
+            "fontStyle": "italic"
           }
         },
         {
-          "scope": "constant.numeric.decimal",
+          "scope": [
+            "variable.other.property.ts"
+          ],
           "settings": {
-            "foreground": "#E5C07B" //royal gold
+            "foreground": "#8bd5ca"
           }
-        },
-        {
-            "scope": "comment",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#6A737D"
-            }
-        },
-        {
-            "scope": "variable.language.this",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#C678DD"
-            }
-        },
-        {
-            "scope": ["entity.name.function.member"],
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#DAA520" //royal gold
-            }
-        },
-        {
-            "scope": ["variable.other.object"],
-            "settings": {
-                "fontStyle": ""
-            }
-        },
+        }
       ]
     },
-    "[Catppuccin Macchiato]": {
-        "textMateRules": [
-            {
-                "scope": "comment",
-                "settings": {
-                    "fontStyle": "italic"
-                    // "foreground": "#6A737D"
-                }
-            },
-            {
-                "scope": [
-                    "variable.other.property.ts",
-                ],
-                "settings": {
-                    "foreground": "#8bd5ca"
-                }
-            }
-        ]
+    "[Catppuccin Mocha]": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            "variable.other.property.ts"
+          ],
+          "settings": {
+            "foreground": "#8bd5ca"
+          }
+        }
+      ]
     }
-  }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "never",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.useCtrlKeys": false,
+  "vim.leader": "<space>",
+  "vim.statusBarColors.easymotioninputmode": "",
+  "vim.easymotion": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["periscope.search"]
+    },
+    {
+      "before": ["<leader>", "f", "s"],
+      "commands": ["workbench.action.showAllSymbols"]
+    },
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "g", "p"], 
+      "commands": ["editor.action.dirtydiff.next"]
+    },
+    {
+      "before": ["<leader>", "g", "j"], 
+      "commands": ["workbench.action.editor.nextChange"]
+    },
+    {
+      "before": ["<leader>", "g", "k"], 
+      "commands": ["workbench.action.editor.previousChange"]
+    },
+    {
+      "before": ["g", "p", "d"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "p", "i"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "t"],
+      "commands": ["editor.action.goToTypeDefinition"]
+    },
+    {
+      "before": ["g", "p", "t"],
+      "commands": ["editor.action.peekTypeDefinition"]
+    },
+    {
+      "before": ["<space>", "v"],
+      "commands": ["clipboard-manager.show"]
+    },
+    {
+      "before": ["Q"], 
+      "after": ["<C-w>", "q"]
+    },
+    {
+      "before": ["|"],
+      "after": ["<C-w>", "v"]
+    },
+    {
+      "before": ["_"], 
+      "after": ["<C-w>", "s"]
+    }
+  ],
+  "editor.fontLigatures": true,
+  "catppuccin.bracketMode": "neovim",
+  "catppuccin.italicComments": false,
+  "catppuccin.italicKeywords": false,
+  "diffEditor.codeLens": true,
+  "errorLens.codeLensTemplate": "$message",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "database-client.autoSync": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.menuBarVisibility": "compact",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "remote.SSH.remotePlatform": {
+    "myserver": "linux"
+  },
+  "catppuccin.extraBordersEnabled": true,
+  "catppuccin.accentColor": "flamingo",
+  "turboConsoleLog.includeFilename": true,
+  "turboConsoleLog.includeLineNum": true,
+  "turboConsoleLog.logMessagePrefix": "📜📜📜",
+  "turboConsoleLog.delimiterInsideMessage": "~~",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.periscopeWithSplit",
+      "sequence": ["periscope.openInHorizontalSplit", "periscope.search"]
+    }
+  ],
+  "workbench.colorTheme": "Catppuccin Macchiato"
 }
