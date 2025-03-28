@@ -1,0 +1,19 @@
+Extensions installed on WSL: Ubuntu:
+bradlc.vscode-tailwindcss
+chakrounanas.turbo-console-log
+cweijan.dbclient-jdbc
+cweijan.vscode-database-client2
+dbaeumer.vscode-eslint
+donjayamanne.githistory
+eamodio.gitlens
+esbenp.prettier-vscode
+gruntfuggly.todo-tree
+huynh.bui.red-cat
+huynh.bui.red-one-dark
+jpcrs.binocular
+mhutchie.git-graph
+ms-azuretools.vscode-docker
+mylesmurphy.prettify-ts
+naumovs.color-highlight
+tomrijndorp.find-it-faster
+undefined_publisher.structure
