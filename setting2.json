@@ -1,0 +1,50 @@
+{
+  "editor.lineHeight": 1.7,
+  
+  "vim.useCtrlKeys": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 250,
+  "vim.hlsearch": true,
+
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.US",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/opt/homebrew/bin/im-select",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
+  "keyboard.dispatch": "keyCode",
+
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 12.5,
+  "window.commandCenter": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path-linux": "/root/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.helm-path-linux": "/root/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path-linux": "/root/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vsc-jetbrains-icons-enhanced",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.renderControlCharacters": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.persistentSessionScrollback": 20000,
+  "terminal.integrated.scrollback": 20000,
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 13,
+  // "editor.fontFamily": "Monaco, JetBrains Mono, Menlo, 'Courier New', monospace",
+  // "editor.fontFamily": "Menlo, JetBrains Mono, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Menlo, 'Courier New', monospace",
+  //  "editor.fontFamily": "SF Mono, SF Mono Regular, JetBrains Mono, Menlo, 'Courier New', monospace",
+  "debug.inlineValues": "on",
+  "debug.showVariableTypes": false,
+  "debug.showInlineBreakpointCandidates": true,
+  "workbench.colorTheme": "JetBrains New Dark"
+}
+// 
