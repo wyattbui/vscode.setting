@@ -1,0 +1,61 @@
+{
+  "editor.lineHeight": 1.7,
+
+  "vscode-neovim.highlightGroups.highlights": {
+    "IncSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground"
+    },
+    "CurSearch": {    
+      "backgroundColor": "theme.editor.findMatchBackground"
+    },
+    "Search": {
+      "backgroundColor": "theme.editor.findMatchHighlightBackground"
+    },
+    "Substitute": {
+      "backgroundColor": "theme.editor.foreground",
+      "color": "theme.editor.background"
+    },
+  },
+  "vscode-neovim.themeIntegration": false,
+    
+  "terminal.integrated.fontSize": 12.5,
+  "window.commandCenter": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.renderControlCharacters": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.persistentSessionScrollback": 20000,
+  "terminal.integrated.scrollback": 20000,
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 12,
+  // "editor.fontFamily": "Monaco, JetBrains Mono, Menlo, 'Courier New', monospace",
+  // "editor.fontFamily": "Menlo, JetBrains Mono, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Menlo, 'Courier New', monospace",
+  //  "editor.fontFamily": "SF Mono, SF Mono Regular, JetBrains Mono, Menlo, 'Courier New', monospace",
+  "debug.inlineValues": "on",
+  "debug.showVariableTypes": false,
+  "debug.showInlineBreakpointCandidates": true,
+  "vim.useCtrlKeys": false,
+  "[jsonc]": {
+    "Aditor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderWhitespace": "all",
+  "workbench.colorTheme": "JetBrains New Dark",
+  "editor.cursorSurroundingLines": 20,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+
+}
